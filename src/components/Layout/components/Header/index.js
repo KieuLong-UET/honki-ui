@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
+import images from '~/assets/images';
 
 const cx = classNames.bind(styles);
 
@@ -7,8 +8,13 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                {/* Left */}
-                {/* Right */}
+                <div className={cx('logo')}>
+                    <a>
+                        <div>
+                            <img src={images.logo} alt="GBoss logo"></img>
+                        </div>
+                    </a>
+                </div>
             </div>
         </header>
     );

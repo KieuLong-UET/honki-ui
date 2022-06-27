@@ -15,6 +15,16 @@ function Header() {
                         </div>
                     </a>
                 </div>
+                <div></div>
+                <div className={cx('option')}>
+                    <div className={cx('job')}>
+                        <button>waiting-list-icon-id</button>
+                        <button>new-notify-booking-icon</button>
+                        <button>new-notify-booking-icon</button>
+                        <button>notify-icon-id</button>
+                    </div>
+                    <div className={cx('avatar')}>Long Kiều</div>
+                </div>
             </div>
         </header>
     );

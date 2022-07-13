@@ -15,13 +15,21 @@ function Header() {
                         </div>
                     </a>
                 </div>
-                <div></div>
                 <div className={cx('option')}>
                     <div className={cx('job')}>
-                        <button>waiting-list-icon-id</button>
-                        <button>new-notify-booking-icon</button>
-                        <button>new-notify-booking-icon</button>
-                        <button>notify-icon-id</button>
+                        <button>
+                            waiting-list-icon-id
+                            <span>waiting-list-icon-id</span>
+                        </button>
+                        <button>
+                            <span>new-notify-booking-icon</span>
+                        </button>
+                        <button>
+                            <span>new-notify-booking-icon</span>
+                        </button>
+                        <button>
+                            <span>notify-icon-id</span>
+                        </button>
                     </div>
                     <div className={cx('avatar')}>Long Kiều</div>
                 </div>

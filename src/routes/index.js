@@ -3,7 +3,7 @@ import { HeaderOnly } from '~/components/Layout';
 
 //Pages
 import Home from '~/pages/Home';
-import Shop from '~/pages/Shop';
+// import Shop from '~/pages/Shop';
 import Order from '~/pages/Order';
 
 //Public routes
